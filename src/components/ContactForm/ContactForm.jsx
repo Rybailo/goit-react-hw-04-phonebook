@@ -14,6 +14,7 @@ export const ContactForm = ({ addContacts }) => {
     addContacts(contactData);
     event.currentTarget.reset();
   };
+  /*  . */
 
   return (
     <div>
