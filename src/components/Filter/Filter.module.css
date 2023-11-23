@@ -1,0 +1,15 @@
+.filterTitle {
+  font-size: 20px;
+  margin: 0;
+  padding-top: 10px;
+}
+
+ul {
+  list-style: none;
+  font-size: 20px;
+  text-align: left;
+  padding: 0;
+}
+li {
+  margin-bottom: 10px;
+}
