@@ -19,7 +19,9 @@ export const App = () => {
 
   const addContacts = contactData => {
     const hasDuplicates = contacts.some(
-      contact => contactData.name.toLowerCase === contact.name.toLowerCase
+      contact =>
+        contact.name &&
+        contactData.name.toLowerCase() === contact.name.toLowerCase()
     );
     if (hasDuplicates) {
       alert(`${contactData.name} is already in contacts.`);
